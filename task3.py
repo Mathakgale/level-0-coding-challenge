@@ -1,6 +1,6 @@
 
 def hello(name):
-	print(f"hello {name} !")
+	print(f"hello {name}!")
 
 
 name = "elmus"
