@@ -1,12 +1,7 @@
-"""
-	covert temperature to fahrenhiet
-"""
+
 def celsius_to_fahrenhiet(temp):
 	return (9/5)*temp +32
 
-"""
- convert temperature to celsius
-"""
 def fahrenhiet_to_celsius (temp):
 	return (temp-32)*(5/9)
 
