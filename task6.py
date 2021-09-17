@@ -1,7 +1,7 @@
 
 
 def maximum (num1, num2, num3):
-	largest  = 0
+	largest  = float('-inf')
 	if  largest  < num1:
 		largest = num1
 	if largest < num2:
@@ -16,4 +16,8 @@ print(max_number)
 max_number = maximum(3,22,8)
 print(max_number)
 max_number = maximum(33,2,7)
+print(max_number)
+max_number = maximum(-33,2,7)
+print(max_number)
+max_number = maximum(-33,-2,-7)
 print(max_number)
