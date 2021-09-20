@@ -1,8 +1,9 @@
+
+def common_letters(word_1, word_2):
 """
 	the function takes two strings as input, and outputs the common characters/letters 
 	that they share.
 """
-def common_letters(word_1, word_2):
 	word_1 = word_1.lower()
 	word_2 = word_2.lower()
 	found_chars = []
